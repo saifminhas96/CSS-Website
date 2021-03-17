@@ -5,16 +5,26 @@ body {
 }
 h1 {
   margin-top: 0px;
-
+  font-size: 90px;
+  color: black;
+  line-height: 2;
   font-family: "Sacramento", cursive;
 }
 
 h2 {
   font-family: "Montserrat", sans-serif;
+  color: black;
+  font-weight: normal;
+  font: 60px;
 }
 
 h3 {
   font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+
+a {
+  color: #11999e;
 }
 
 .top-container {
@@ -29,6 +39,7 @@ h3 {
 
 .bottom-container {
   background-color: #71c9ce;
+  padding-bottom: 50px;
 }
 
 span {
@@ -44,4 +55,12 @@ span {
   position: absolute;
   left: 300px;
   bottom: 300px;
+}
+
+.computer-image {
+  border-radius: 100%;
+}
+
+.profile-pic {
+  border-radius: 100%;
 }
